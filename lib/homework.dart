@@ -8,10 +8,21 @@ class Car {
   }
 }
 
-void registered ({String name = 'auto', String speed = '90 км/ч'}){
+void registered ({String name = 'auto', String speed = '90 км/ч',
+  String name2 = 'auto 2', String speed2 = '80 км/ч', String name3 = 'auto 3', String speed3 = '70 км/ч'}){
   Car newCar = Car();
   newCar.name = name;
   newCar.speed = speed;
   newCar.toPrint();
   // newCar.toPrint(); // задание 2
+
+  Car newCar2 = Car();
+  newCar2.name = name2;
+  newCar2.speed = speed2;
+  newCar2.toPrint();
+
+  Car newCar3 = Car();
+  newCar3.name = name3;
+  newCar3.speed = speed3;
+  newCar3.toPrint();
 }
