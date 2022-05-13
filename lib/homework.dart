@@ -3,13 +3,13 @@ class Car {
   String speed = '100 км/ч';
 
   void toPrint() {
-    print('$name - $speed');
+    print('Авто марки $name - максимадльная скорость $speed');
     // print('$name - $speed'); // задание 2
   }
 }
 
 void registered ({String name = 'auto', String speed = '90 км/ч',
-  String name2 = 'auto 2', String speed2 = '80 км/ч', String name3 = 'auto 3', String speed3 = '70 км/ч'}){
+  String name2 = 'Nissan', String speed2 = '80 км/ч', String name3 = 'KIA', String speed3 = '70 км/ч'}){
   Car newCar = Car();
   newCar.name = name;
   newCar.speed = speed;

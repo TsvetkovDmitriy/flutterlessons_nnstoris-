@@ -53,7 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
   void _incrementCounter() {
-    registered (name: 'Toyota', speed: '170 км/ч');
+    registered (name: 'Toyota', speed: '170 км/ч', name3: 'Tesla', speed3: '200 км/ч');
     // registered (name: 'Toyota', speed: '170 км/ч'); // задание 2
     // createUser(timeOffBirthday: DateTime.now(), phone:'+79998887766', name:'Иван');
     setState(() {
