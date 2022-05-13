@@ -3,7 +3,7 @@ class Car {
   String speed = '100 км/ч';
 
   void toPrint() {
-    print('Авто марки $name - максимадльная скорость $speed');
+    print('Авто марки $name - максимальная скорость $speed');
     // print('$name - $speed'); // задание 2
   }
 }
